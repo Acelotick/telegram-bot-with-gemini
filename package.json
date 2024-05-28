@@ -1,0 +1,22 @@
+{
+  "name": "telegram-bot-with-gemini",
+  "version": "1.0.2",
+  "description": "Просто бот телеграмма написанный на простом nodejs, вмещает в себя ИИ от гугла",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gemini",
+    "bot",
+    "telegram",
+    "nodejs",
+    "js"
+  ],
+  "author": "Vitaliy",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.4",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
