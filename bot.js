@@ -19,7 +19,7 @@ async function question(msg, ai) {
         bot.sendMessage(msg.chat.id, (await ai.generateContent(msg.text.substring(AICommandPrefix.length))).response.text(), {
             reply_to_message_id: msg.message_id
         })
-    } catch {
+    } catch (e) {
         if (e == 'Error: [GoogleGenerativeAI Error]: Candidate was blocked due to SAFETY') {
             bot.sendMessage(msg.chat.id, `Неприемлимый контент не доступен для вопросов`, {
                 reply_to_message_id: msg.message_id
