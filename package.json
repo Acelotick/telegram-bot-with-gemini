@@ -1,7 +1,7 @@
 {
   "name": "telegram-bot-with-gemini",
   "version": "1.0.2",
-  "description": "Просто бот телеграмма написанный на простом nodejs, вмещает в себя ИИ от гугла",
+  "description": "Бот телеграмма написанный на NodeJS, в котором присутствует ИИ от гугла Gemini-Pro",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
