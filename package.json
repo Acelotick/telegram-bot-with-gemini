@@ -13,6 +13,10 @@
     "nodejs",
     "js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acelotick/telegram-bot-with-gemini.git"
+  },
   "author": "Vitaliy",
   "license": "MIT",
   "dependencies": {
