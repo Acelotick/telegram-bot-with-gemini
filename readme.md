@@ -1,5 +1,7 @@
+# Как установить?
+- npm i
+
 # Как запустить?
-- npm install
 - node bot.js
 
 # Где достать API KEY и TOKEN бота телеграм?
